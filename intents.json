@@ -1,0 +1,124 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "hi",
+                "hello",
+                "whats up",
+                "hey there",
+                "are you there",
+                "who is there"
+            ],
+            "responses": [
+                "hi",
+                "hello",
+                "hey",
+                "hey there",
+                "hey there, what can i do for you ?",
+                "hi there, what can I do for you ?",
+                "hi there, how can I help ?"
+            ]
+        },
+        {
+            "tag": "greetings.howareyou",
+            "patterns": [
+                "hi, how are you",
+                "hello, how are you",
+                "how are you",
+                "how are you doing",
+                "are you alright",
+                "are you doing good"
+            ],
+            "responses": [
+                "im doing great, thanks for asking.",
+                "im doing great",
+                "all my systems are running well",
+                "all my systems are running well, thanks for asking",
+                "im doing good. hope you are all well",
+                "all my systems are running at its best, how can i help you ?"
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "can you tell me a joke",
+                "tell me a joke",
+                "give me a joke",
+                "tell me some thing to laugh",
+                "make me laugh",
+                "try to make me laught",
+                "hit me with a joke",
+                "a joke please",
+                "can i hear a joke",
+                "do you know any jokes"
+            ],
+            "responses": [
+                "What do you call a boomerang that doesn't come back. A stick",
+                "What does a cloud wear under his raincoat? Thunderwear.",
+                "What time is it when the clock strikes 13? Time to get a new clock.",
+                "How does a cucumber become a pickle? It goes through a jarring experience.",
+                "What did one toilet say to the other? You look a bit flushed.",
+                "Why can’t Elsa from Frozen have a balloon? Because she will 'let it go, let it go.' ",
+                "Why did the kid bring a ladder to school? Because she wanted to go to high school."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "thanks",
+                "thank you",
+                "appriciate your help",
+                "thanks fr your help",
+                "that was helpful",
+                "thats helpful",
+                "you are helpful",
+                "thanks alot"
+            ],
+            "responses": [
+                "happy to help!",
+                "my pleasure",
+                "anytime",
+                "always",
+                "your welcome"
+            ]
+        },
+        {
+          "tag": "goodbye",
+          "patterns": [
+              "bye",
+              "see you later",
+              "ill see you later",
+              "catch you later"
+          ],
+          "responses": [
+            "see you later",
+            "have a nice day",
+            "bye! come back again soon."
+          ]
+        },
+        {
+            "tag": "greetings.morning",
+            "patterns": [
+                "good morning",
+                "morning",
+                "very good morning"
+            ],
+            "responses": [
+                "good morning !"
+            ]
+        },
+        {
+            "tag": "greetings.night",
+            "patterns": [
+                "good night",
+                "nights",
+                "see you in the morning"
+            ],
+            "responses": [
+                "good night !",
+                "good night ! sweet dreams"
+            ]
+        }
+    ]
+}
